@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hao Si Paint</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./app.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header__contact">
+            <div class="header__top container">
+                <div class="row">
+
+
+                    <div class="header__left col-sm-8">
+                        <p>
+                            <i class="fa fa-light fa-square-phone"></i>
+                            <span><a href="tel:0798 788 676">Hotline: 0798 788 676 - 0394 796 995</a></span>
+                            <i class="fa fa-regular fa-envelope email"></i>
+                            <span><a href="mailto:haosipaint@gmail.com">Email: haosipaint@gmail.com</a></span>
+                        </p>
+
+
+                    </div>
+                    <div class=" header__right col-sm-4 ">
+                        <p>
+                            <span>
+                    <a href="">VIE</a>/
+                    <a href="">ENG</a>
+                </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar_text ">
+            <div class="container">
+                <div class="logo_menu">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./assets/img/haosilogo.png" alt="CÔNG TY TNHH CÔNG NGHIỆP HAOSI VN">
+                        </a>
+                    </div>
+                </div>
+                <a class="navbar-brand" href="index.html">TRANG CHỦ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="introduce.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link dropdown-toggle" href="#">DỊCH VỤ</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="VacuumPlating.html">Xi mạ chân không</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="surfaceTreatment.html">Gia công xử lý bề mặt</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+                        </li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- carousel -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel-4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel-5.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+        </div>
+    </section>
+    <!-- strengths -->
+    <section>
+        <div class="container strengths">
+            <div class="strengths__text-title">
+                <h2>THẾ MẠNH CỦA CHÚNG TÔI</h2>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3 strength__element">
+                    <div class="strength__border">
+                        <p class="strength__icon">
+                            <i class="fa fa-solid fa-layer-group fa-2x"></i>
+                        </p>
+                        <p class="strength__number">20+</p>
+                        <p class="strength__text">Năm hoạt động</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 strength__element">
+                    <div class="strength__border">
+                        <p class="strength__icon">
+                            <i class="fa fa-solid fa-city fa-2x"></i>
+                        </p>
+                        <p class="strength__number">30.000</p>
+                        <p class="strength__text">Nhà máy (m2)</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 strength__element">
+                    <div class="strength__border">
+                        <p class="strength__icon">
+                            <i class="fa fa-solid fa-users fa-2x"></i>
+                        </p>
+                        <p class="strength__number">1000+</p>
+                        <p class="strength__text">Nhân viên</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 strength__element">
+                    <div class="strength__border">
+                        <p class="strength__icon">
+                            <i class="fa fa-solid fa-handshake-simple fa-2x"></i>
+                        </p>
+                        <p class="strength__number">100+</p>
+                        <p class="strength__text">Đối tác, khách hàng</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- metallic paint -->
+    <section>
+        <div class="container">
+            <h2 class="titlePaint">
+                <a href="#">SƠN CÁC LOẠI KIM LOẠI</a>
+            </h2>
+            <div class="tab">
+                <button class="tabLink">CÁC SẢN PHẨM NỔI BẬT</button>
+                <button class="tabLink">SƠN BÓNG</button>
+                <button class="tabLink">SƠN CHỊU NHIỆT</button>
+                <button class="tabLink">SƠN CHỐNG GỈ</button>
+                <button class="tabLink">SƠN KIM LOẠI</button>
+                <button class="tabLink">SƠN SẤY</button>
+                <button class="tabLink">SƠN INOX</button>
+                <button class="tabLink">SƠN NHÚNG</button>
+                <button class="tabLink">SƠN KẼM</button>
+                <button class="tabLink">SƠN LÓT</button>
+                <button class="tabLink">SƠN MẠ INOX</button>
+                <button class="tabLink">SƠN MẠ KẼM</button>
+                <button class="tabLink">SƠN CONTAINER</button>
+                <button class="tabLink">SƠN TÀU BIỂN</button>
+                <button class="tabLink">SƠN NHÔM</button>
+                <button class="tabLink">SƠN PHỦ</button>
+                <button class="tabLink">SƠN SẮT GIẢ GỖ</button>
+                <button class="tabLink">SƠN UV</button>
+                <button class="tabLink">SƠN CAO SU</button>
+            </div>
+            <p class="descriptionPaint">Bảo vệ và trang trí các bề mặt kim loại, giúp chống ăn mòn, oxy hóa và duy trì độ bền màu lâu dài, phù hợp cho nhiều ứng dụng trong công nghiệp và môi trường ngoài trời</p>
+
+            <div class="tabContent">
+                <div class="row">
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- plastic paint -->
+    <section>
+        <div class="container">
+            <h2 class="titlePaint">
+                <a href="#">SƠN CÁC LOẠI KIM LOẠI</a>
+            </h2>
+            <div class="tab">
+                <button class="tabLink">CÁC SẢN PHẨM NỔI BẬT</button>
+                <button class="tabLink">SƠN BÓNG</button>
+                <button class="tabLink">SƠN CHỊU NHIỆT</button>
+                <button class="tabLink">SƠN CHỐNG GỈ</button>
+                <button class="tabLink">SƠN KIM LOẠI</button>
+                <button class="tabLink">SƠN SẤY</button>
+                <button class="tabLink">SƠN INOX</button>
+                <button class="tabLink">SƠN NHÚNG</button>
+                <button class="tabLink">SƠN KẼM</button>
+                <button class="tabLink">SƠN LÓT</button>
+                <button class="tabLink">SƠN MẠ INOX</button>
+                <button class="tabLink">SƠN MẠ KẼM</button>
+                <button class="tabLink">SƠN CONTAINER</button>
+                <button class="tabLink">SƠN TÀU BIỂN</button>
+                <button class="tabLink">SƠN NHÔM</button>
+                <button class="tabLink">SƠN PHỦ</button>
+                <button class="tabLink">SƠN SẮT GIẢ GỖ</button>
+                <button class="tabLink">SƠN UV</button>
+                <button class="tabLink">SƠN CAO SU</button>
+            </div>
+            <p class="descriptionPaint">Bảo vệ và trang trí các bề mặt kim loại, giúp chống ăn mòn, oxy hóa và duy trì độ bền màu lâu dài, phù hợp cho nhiều ứng dụng trong công nghiệp và môi trường ngoài trời</p>
+
+            <div class="tabContent">
+                <div class="row">
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- glass paint -->
+    <section>
+        <div class="container">
+            <h2 class="titlePaint">
+                <a href="#">SƠN CÁC LOẠI KIM LOẠI</a>
+            </h2>
+            <div class="tab">
+                <button class="tabLink">CÁC SẢN PHẨM NỔI BẬT</button>
+                <button class="tabLink">SƠN BÓNG</button>
+                <button class="tabLink">SƠN CHỊU NHIỆT</button>
+                <button class="tabLink">SƠN CHỐNG GỈ</button>
+                <button class="tabLink">SƠN KIM LOẠI</button>
+                <button class="tabLink">SƠN SẤY</button>
+                <button class="tabLink">SƠN INOX</button>
+                <button class="tabLink">SƠN NHÚNG</button>
+                <button class="tabLink">SƠN KẼM</button>
+                <button class="tabLink">SƠN LÓT</button>
+                <button class="tabLink">SƠN MẠ INOX</button>
+                <button class="tabLink">SƠN MẠ KẼM</button>
+                <button class="tabLink">SƠN CONTAINER</button>
+                <button class="tabLink">SƠN TÀU BIỂN</button>
+                <button class="tabLink">SƠN NHÔM</button>
+                <button class="tabLink">SƠN PHỦ</button>
+                <button class="tabLink">SƠN SẮT GIẢ GỖ</button>
+                <button class="tabLink">SƠN UV</button>
+                <button class="tabLink">SƠN CAO SU</button>
+            </div>
+            <p class="descriptionPaint">Bảo vệ và trang trí các bề mặt kim loại, giúp chống ăn mòn, oxy hóa và duy trì độ bền màu lâu dài, phù hợp cho nhiều ứng dụng trong công nghiệp và môi trường ngoài trời</p>
+
+            <div class="tabContent">
+                <div class="row">
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- industrial paint -->
+    <section>
+        <div class="container">
+            <h2 class="titlePaint">
+                <a href="#">SƠN CÁC LOẠI KIM LOẠI</a>
+            </h2>
+            <div class="tab">
+                <button class="tabLink">CÁC SẢN PHẨM NỔI BẬT</button>
+                <button class="tabLink">SƠN BÓNG</button>
+                <button class="tabLink">SƠN CHỊU NHIỆT</button>
+                <button class="tabLink">SƠN CHỐNG GỈ</button>
+                <button class="tabLink">SƠN KIM LOẠI</button>
+                <button class="tabLink">SƠN SẤY</button>
+                <button class="tabLink">SƠN INOX</button>
+                <button class="tabLink">SƠN NHÚNG</button>
+                <button class="tabLink">SƠN KẼM</button>
+                <button class="tabLink">SƠN LÓT</button>
+                <button class="tabLink">SƠN MẠ INOX</button>
+                <button class="tabLink">SƠN MẠ KẼM</button>
+                <button class="tabLink">SƠN CONTAINER</button>
+                <button class="tabLink">SƠN TÀU BIỂN</button>
+                <button class="tabLink">SƠN NHÔM</button>
+                <button class="tabLink">SƠN PHỦ</button>
+                <button class="tabLink">SƠN SẮT GIẢ GỖ</button>
+                <button class="tabLink">SƠN UV</button>
+                <button class="tabLink">SƠN CAO SU</button>
+            </div>
+            <p class="descriptionPaint">Bảo vệ và trang trí các bề mặt kim loại, giúp chống ăn mòn, oxy hóa và duy trì độ bền màu lâu dài, phù hợp cho nhiều ứng dụng trong công nghiệp và môi trường ngoài trời</p>
+
+            <div class="tabContent">
+                <div class="row">
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- printing ink-eva -->
+    <section>
+        <div class="container">
+            <h2 class="titlePaint">
+                <a href="#">SƠN CÁC LOẠI KIM LOẠI</a>
+            </h2>
+            <div class="tab">
+                <button class="tabLink">CÁC SẢN PHẨM NỔI BẬT</button>
+                <button class="tabLink">SƠN BÓNG</button>
+                <button class="tabLink">SƠN CHỊU NHIỆT</button>
+                <button class="tabLink">SƠN CHỐNG GỈ</button>
+                <button class="tabLink">SƠN KIM LOẠI</button>
+                <button class="tabLink">SƠN SẤY</button>
+                <button class="tabLink">SƠN INOX</button>
+                <button class="tabLink">SƠN NHÚNG</button>
+                <button class="tabLink">SƠN KẼM</button>
+                <button class="tabLink">SƠN LÓT</button>
+                <button class="tabLink">SƠN MẠ INOX</button>
+                <button class="tabLink">SƠN MẠ KẼM</button>
+                <button class="tabLink">SƠN CONTAINER</button>
+                <button class="tabLink">SƠN TÀU BIỂN</button>
+                <button class="tabLink">SƠN NHÔM</button>
+                <button class="tabLink">SƠN PHỦ</button>
+                <button class="tabLink">SƠN SẮT GIẢ GỖ</button>
+                <button class="tabLink">SƠN UV</button>
+                <button class="tabLink">SƠN CAO SU</button>
+            </div>
+            <p class="descriptionPaint">Bảo vệ và trang trí các bề mặt kim loại, giúp chống ăn mòn, oxy hóa và duy trì độ bền màu lâu dài, phù hợp cho nhiều ứng dụng trong công nghiệp và môi trường ngoài trời</p>
+
+            <div class="tabContent">
+                <div class="row">
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__content">
+                            <div class="product__img">
+                                <a href="">
+                                    <img src="./assets/img/Paint.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="product__desc">
+                                <p class="product__name">
+                                    <a href="">Sơn Bóng</a>
+                                </p>
+                                <p class="product__price">
+                                    Liên Hệ Ngay
+                                    <span>/ Giá</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- infor -->
+    <section class="infor">
+        <div class="container infor__container">
+            <div class="infor__title">
+                <h2>
+                    <a href="">
+                    VỀ CHÚNG TÔI
+                    </a>
+                </h2>
+                <p>CÔNG TY TNHH CÔNG NGHIỆP HAOSI VN</p>
+            </div>
+            <div class="row">
+                <div class="infor__content col-sm-6">
+                    <p>
+                        <span>
+                            <span>
+                                Được thành lập từ 2003, 
+                                <strong>HaoSi VN </strong>
+                                tự hào là 
+                                <strong>nhà sản xuất sơn phủ công nghiệp, mực in, phụ gia, dung môi,... </strong>
+                                hàng đầu tại Việt Nam với hơn 20 năm kinh nghiệm.
+                                <br>
+                                <strong>Lĩnh vực hoạt động chính của chúng tôi</strong>
+                                :
+                                <br>
+
+                                ❖ <u>Sản xuất & cung cấp sơn phủ công nghiệp</u>:
+                                <br>
+
+☞ Sơn mạ điện chân không, sơn mạ véc ni, sơn cao su, sơn đàn hồi hệ nước, sơn sấy ngũ kim, sơn nhựa hệ nước, sơn sấy kim loại hệ nước, sơn 2 thành phần,...
+<br>
+
+☞ Sử dụng trong ngành: Sơn bao bì, chai lọ mỹ phẩm, vỏ điện thoại, sản phẩm kỹ thuật số, đồ chơi trẻ em, đồ điện gia dụng, nội thất ô tô,...
+<br>
+
+☞ Ưu điểm: Cung cấp khả năng chống ăn mòn cho các thiết bị và bề mặt kim loại, phủ theo màu sắc,...
+<br>
+
+❖ 
+<u>Sản xuất và cung cấp mực in</u>
+:
+<br>
+
+☞ Mực in offset, mực in flexo, mực in nhựa, mực in vải, mực in lụa,...
+<br>
+
+☞ Năng suất đạt 3.000+ tấn mực
+<br>
+
+❖ Phụ gia & dung môi:
+<br>
+
+☞ CYC, Acetone, Xylene, Tolyen, dầu bóng Alkyd, phủ bóng, phủ mờ, sơn chống rỉ, sơn bóng 2K,...
+<br>
+<u>
+    <strong>Đối tác tiêu biểu</strong>
+</u>
+: Bitis, Anta, Nokia, Adidas, Puma, Samsung, Bảo Nguyên, Thuận Tỉnh, Nam Cương, Vĩnh Nghĩa,...
+
+                            </span>
+                        </span>
+                    </p>
+                    <p style="text-align: center;">
+                        <span>
+                            <strong>
+                                Rất mong được hợp tác cùng Quý khách!
+                            </strong>
+                        </span>
+                    </p>
+
+                    <table class="infor__QRCODE">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>ZALO</strong>
+                                </td>
+                                <td>
+                                    <strong>WECHAT 3</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./assets/img/qr.jpg" alt="">
+                                </td>
+                                <td>
+                                    <img src="./assets/img/wechat.jpg" alt="">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-6">
+                    <a href="">
+                        <img class="infor__gif" src="./assets/img/introduce.gif" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- image -->
+    <section>
+        <div class="container">
+            <div class="image__title">
+                <h2>
+                    <a href="">HÌNH ẢNH CÔNG TY</a>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+                <div class="image__content col-6 col-md-3">
+                    <img src="./assets/img/Paint.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- certificate -->
+    <section class="certificate">
+        <div class="container">
+            <div class="certificate__title">
+                <h2>
+                    CHỨNG NHẬN TIÊU CHUẨN CHẤT LƯỢNG
+                </h2>
+            </div>
+            <div class="row">
+                <div class="certificate__image">
+                    <img src="./assets/img/certificate1.jpg" alt="">
+                </div>
+                <div class="certificate__image">
+                    <img src="./assets/img/certificate2.jpg" alt="">
+                </div>
+            </div>
+    </section>
+    <!-- choose -->
+    <section class="choose">
+        <div class="container">
+            <div class="choose__title">
+                <h2>
+                    VÌ SAO NÊN CHỌN HAOSI VN
+                </h2>
+            </div>
+            <div class="row">
+                <div class="choose__content col-6 col-md-3">
+                    <div class="choose__content-block">
+                        <img src="./assets/img/choose1.jpg" alt="">
+                        <p class="choose__content-title">
+                            <b>Trực Tiếp Sản Xuất</b>
+                        </p>
+                        <p class="choose__content-desc">Công ty chuyên sản xuất và cung cấp đa dạng các dòng sơn phủ, mực in, phụ gia, dung môi,... chất lượng cao</p>
+                    </div>
+                </div>
+                <div class="choose__content col-6 col-md-3">
+                    <div class="choose__content-block">
+                        <img src="./assets/img/choose2.jpg" alt="">
+                        <p class="choose__content-title">
+                            <b>Sản Phẩm Chất Lượng</b>
+                        </p>
+                        <p class="choose__content-desc">Công ty chuyên sản xuất và cung cấp đa dạng các dòng sơn phủ, mực in, phụ gia, dung môi,... chất lượng cao</p>
+                    </div>
+                </div>
+                <div class="choose__content col-6 col-md-3">
+                    <div class="choose__content-block">
+                        <img src="./assets/img/choose3.jpg" alt="">
+                        <p class="choose__content-title">
+                            <b>Năng Lực Sản Xuất Lớn</b>
+                        </p>
+                        <p class="choose__content-desc">Công ty chuyên sản xuất và cung cấp đa dạng các dòng sơn phủ, mực in, phụ gia, dung môi,... chất lượng cao</p>
+                    </div>
+                </div>
+                <div class="choose__content col-6 col-md-3">
+                    <div class="choose__content-block">
+                        <img src="./assets/img/choose4.jpg" alt="">
+                        <p class="choose__content-title">
+                            <b>Đối Tác Uy Tín</b>
+                        </p>
+                        <p class="choose__content-desc">Công ty chuyên sản xuất và cung cấp đa dạng các dòng sơn phủ, mực in, phụ gia, dung môi,... chất lượng cao</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="contact__block">
+                        <div class="contact__block-logo">
+                            <a href="">
+                                <img src="./assets/img/haosilogo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="contact__block-desc">
+                            <p>
+                                <span>
+                                    Công ty TNHH Hoá Chất Hao SI Hồng Kông được thành lập vào năm 1992. Đây là đơn vị đầu tiên thành lập Công ty TNHH sơn Nhuệ Đạt tại Trung Quốc. Đến năm 2003,
+                                    <strong>, Công ty TNHH Hoá chất Hao Si Việt Nam </strong>
+                                    được thành lập. Sâu hơn 20 năm đổi mới và phát triển , Hao Si Group đã trở thành nhà sản xuất mực in và sơn phủ chuyên nghiệp quy mô lớn , chuyên cung cấp giải pháp về sơn phủ bề mặt và dịch vụ in lụa chuyên nghiệp , hệ thống hoá , chất lượng cao cho khách hàng. Với châm ngôn phục vụ khách hàng tận tâm , chuyên nghiệp .
+                                </span>
+                            </p>
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.26390469149!2d106.70883487589687!3d10.94342668921568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d742d39e7fe3%3A0x588bb2daf834a77a!2sViet%20Huong%20Industrial%20Zone!5e0!3m2!1sen!2s!4v1720432963203!5m2!1sen!2s"
+                                    frameborder="0"></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contact__aboutMe">
+                        <p class="contact__aboutMe-title">VỀ CHÚNG TÔI</p>
+                        <div class="contact__aboutMe-content">
+                            <p>
+                                <a href="">TRANG CHỦ</a>
+                            </p>
+                            <p>
+                                <a href="">GIỚI THIỆU</a>
+                            </p>
+                            <p>
+                                <a href="">DỊCH VỤ</a>
+                            </p>
+                            <p>
+                                <a href="">LIÊN HỆ</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="contact__infor">
+                        <p class="contact__infor-title">THÔNG TIN LIÊN HỆ</p>
+                        <p>CÔNG TY TNHH CÔNG NGHIỆP HAOSI VN</p>
+                        <p>Địa chỉ: Lô I1 & I2, KCN Việt Hương, P. Thuận Giao, TP. Thuận An, Bình Dương</p>
+                        <p>Hotline: <strong>
+                            <a href="">0798 788 676 - 0394 796 995</a>
+                        </strong></p>
+                        <p>Email:
+                            <a href="">haosipaint@gmail.com</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">
+                <span class="footer__text-title">CÔNG TY TNHH CÔNG NGHIỆP HAOSI VN</span>
+                <br> Địa chỉ: Lô I1 & I2, KCN Việt Hương, P. Thuận Giao, TP. Thuận An, Bình Dương
+                <br> Giấy phép ĐKKD số 3700482957 - Do Sở Kế Hoạch Và Đầu Tư Tỉnh Bình Dương cấp ngày 09-08-2012
+                <br>Chịu trách nhiệm nội dung: Ms. Hạnh
+                <br>
+                <small>
+    © Bản quyền thuộc về CÔNG TY TNHH CÔNG NGHIỆP HAOSI VN. 
+</small>
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js " integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+</body>
+
+</html>
+
+</html>
+
+</html>
