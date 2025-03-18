@@ -231,6 +231,9 @@ body {
     .tabContent .product {
         width: 50%;
     }
+    .product__img {
+        height: 150px;
+    }
 }
 
 .product__content {
@@ -241,13 +244,19 @@ body {
 
 .product__img {
     width: 100%;
-    height: auto
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .product__img img {
     width: 100%;
     vertical-align: middle;
     border-style: none;
+    height: 100%;
+    object-fit: cover;
 }
 
 .product__desc {
